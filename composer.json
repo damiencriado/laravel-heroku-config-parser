@@ -1,0 +1,26 @@
+{
+    "name": "itsdamien/laravel-heroku-config-parser",
+    "description": "Parse Heroku config vars like DATABASE_URL or REDIS_URL to work with Laravel.",
+    "keywords": [
+        "laravel",
+        "heroku",
+        "env",
+        "database",
+        "redis"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damien Criado",
+            "email": "its@damien.is"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItsDamien\\Heroku\\": "src/"
+        }
+    }
+}
