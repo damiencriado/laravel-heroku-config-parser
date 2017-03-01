@@ -17,6 +17,8 @@ engines:
     checks:
       Design/NpathComplexity:
         enabled: false
+      CyclomaticComplexity:
+        enabled: false
 ratings:
   paths:
   - "**.inc"
