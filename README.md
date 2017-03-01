@@ -4,7 +4,6 @@
 [![Packagist Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
 [![Code Climate][ico-codeclimate]][link-codeclimate]
-[![Code Climate Issues][ico-issues]][link-codeclimate]
 [![Code Climate Coverage][ico-coverage]][link-codeclimate]
 [![StyleCI][ico-styleci]][link-styleci]
 
@@ -13,19 +12,20 @@ Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel
 ## Why
 
 When adding a database or a redis server to your Heroku app, Heroku add a config var with this url syntax:
-`DATABASE_URL=postgres://foo:foo@localhost/hellodb`
+`DATABASE_URL=postgres://usr:pwd@localhost:5432/hellodb`
 
-Unfortunately, Laravel can't read these vars, so you probably have parsed them manually like this:
+Unfortunately, Laravel can't read this var, so you probably parsed it manually like this:
+
 ```shell
-heroku config:set DB_CONNECTION=mysql
-heroku config:set DB_HOST=host
-heroku config:set DB_PORT=port
-heroku config:set DB_DATABASE=database
-heroku config:set DB_USERNAME=username
-heroku config:set DB_PASSWORD=password
+heroku config:set DB_CONNECTION=pgsql
+heroku config:set DB_HOST=localhost
+heroku config:set DB_PORT=5432
+heroku config:set DB_DATABASE=hellodb
+heroku config:set DB_USERNAME=usr
+heroku config:set DB_PASSWORD=pwd
 ```
 
-**Laravel Heroku Config Parser** parse automatically your `DATABASE_URL` and `REDIS_URL` to dynamically set all vars needed by Laravel [(example)](#what-is-parsed).
+**Laravel Heroku Config Parser** parse automatically your `DATABASE_URL` and `REDIS_URL` to dynamically set all vars needed by Laravel [(see the list)](#list-of-injected-config-var).
 
 ## Installation
 
@@ -56,7 +56,7 @@ if (class_exists('\ItsDamien\Heroku\Config\Parse')) {
 
 **Enjoy !**
 
-## What is parsed
+## List of injected config var
 
 | DATABASE_URL  | postgres://usr:pwd@ec2-s1:5432/db1 | mysql://usr:pwd@ec2-s2:3306/db2 |
 |---------------|------------------------------------|-----------------------------|
@@ -73,7 +73,7 @@ if (class_exists('\ItsDamien\Heroku\Config\Parse')) {
 | REDIS_PORT     | 11469                      |
 | REDIS_PASSWORD | pwd                        |
 
-## Select the config var who will be parsed
+## Customize the config var who will be parsed
 
 You can select wich config var will be parsed by setting `HEROKU_DATABASE` and `HEROKU_REDIS` like this:
 
@@ -88,9 +88,8 @@ heroku config:set HEROKU_REDIS=REDIS_URL_BACKUP
 
 [ico-version]: https://img.shields.io/packagist/v/itsdamien/laravel-heroku-config-parser.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/itsdamien/laravel-heroku-config-parser.svg
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-license]: https://img.shields.io/packagist/l/itsdamien/laravel-heroku-config-parser.svg
 [ico-codeclimate]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/gpa.svg
-[ico-issues]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/issue_count.svg
 [ico-coverage]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/coverage.svg
 [ico-styleci]: https://styleci.io/repos/83414040/shield?branch=master&style=flat
 
