@@ -3,6 +3,9 @@
 [![Packagist Latest Version][ico-version]][link-packagist]
 [![Packagist Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
+[![Code Climate][ico-codeclimate]][link-codeclimate]
+[![Code Climate Issues][ico-issues]][link-codeclimate]
+[![Code Climate Coverage][ico-coverage]][link-codeclimate]
 [![StyleCI][ico-styleci]][link-styleci]
 
 Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel.
@@ -86,8 +89,12 @@ heroku config:set HEROKU_REDIS=REDIS_URL_BACKUP
 [ico-version]: https://img.shields.io/packagist/v/itsdamien/laravel-heroku-config-parser.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/itsdamien/laravel-heroku-config-parser.svg
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-codeclimate]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/gpa.svg
+[ico-issues]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/issue_count.svg
+[ico-coverage]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/coverage.svg
 [ico-styleci]: https://styleci.io/repos/83414040/shield?branch=master&style=flat
 
 [link-packagist]: https://packagist.org/packages/itsdamien/laravel-heroku-config-parser
 [link-downloads]: https://packagist.org/packages/itsdamien/laravel-heroku-config-parser
+[link-codeclimate]: https://codeclimate.com/repos/58b753f882f55c02710000b5/feed
 [link-styleci]: https://styleci.io/repos/83414040
