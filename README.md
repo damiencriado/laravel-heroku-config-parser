@@ -1,4 +1,4 @@
-# Laravel Heroku Config Parser
+<p align="center"><img src="https://www.dropbox.com/s/jsq5x1g72lc8wir/laravel-heroku-config-parser.png?raw=1" width="600"></p>
 
 [![Packagist Latest Version][ico-version]][link-packagist]
 [![Packagist Total Downloads][ico-downloads]][link-downloads]
