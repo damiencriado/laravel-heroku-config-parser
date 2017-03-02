@@ -11,7 +11,7 @@ Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel
 
 ## Why
 
-When adding a database or a redis server to your Heroku app, Heroku add a config var with this url syntax:
+When adding a database or a redis server to your Heroku app, Heroku add a URL config var like this:
 `DATABASE_URL=postgres://usr:pwd@localhost:5432/hellodb`
 
 Unfortunately, Laravel can't read this var, so you probably parsed it manually like this:
