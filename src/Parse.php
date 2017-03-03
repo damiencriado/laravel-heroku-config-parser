@@ -15,7 +15,7 @@ class Parse
 
     private function database()
     {
-        $env = env(env($this->databaseKey));
+        $env = getenv(getenv($this->databaseKey));
 
         if ($env !== null) {
             $url = parse_url($env);
@@ -52,7 +52,7 @@ class Parse
 
     private function redis()
     {
-        $env = env(env($this->redisKey));
+        $env = getenv(getenv($this->redisKey));
 
         if ($env !== null) {
             $url = parse_url($env);
