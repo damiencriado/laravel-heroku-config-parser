@@ -1,11 +1,12 @@
 <p align="center"><img src="https://www.dropbox.com/s/jsq5x1g72lc8wir/laravel-heroku-config-parser.png?raw=1" width="600"></p>
 
-[![Packagist Latest Version][ico-version]][link-packagist]
-[![Packagist Total Downloads][ico-downloads]][link-downloads]
-[![Software License][ico-license]](LICENSE.md)
-[![Code Climate][ico-codeclimate]][link-codeclimate]
-[![Code Climate Coverage][ico-coverage]][link-codeclimate]
-[![StyleCI][ico-styleci]][link-styleci]
+[![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/v/stable)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
+[![Total Downloads](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/downloads)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
+[![License](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/license)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
+[![Build Status](https://travis-ci.org/itsDamien/laravel-heroku-config-parser.svg?branch=master)](https://travis-ci.org/itsDamien/laravel-heroku-config-parser)
+[![Coverage Status](https://coveralls.io/repos/github/itsDamien/laravel-heroku-config-parser/badge.svg?branch=master)](https://coveralls.io/github/itsDamien/laravel-heroku-config-parser?branch=master)
+[![Code Climate](https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/gpa.svg)](https://codeclimate.com/repos/58b753f882f55c02710000b5/feed)
+[![StyleCI](https://styleci.io/repos/83414040/shield?branch=master&style=flat)](https://styleci.io/repos/83414040)
 
 Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel.
 
@@ -85,15 +86,3 @@ heroku config:set HEROKU_REDIS=REDIS_URL_BACKUP
 ## License
 
 **Laravel Heroku Config Parser** is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-
-[ico-version]: https://img.shields.io/packagist/v/itsdamien/laravel-heroku-config-parser.svg
-[ico-downloads]: https://img.shields.io/packagist/dt/itsdamien/laravel-heroku-config-parser.svg
-[ico-license]: https://img.shields.io/packagist/l/itsdamien/laravel-heroku-config-parser.svg
-[ico-codeclimate]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/gpa.svg
-[ico-coverage]: https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/coverage.svg
-[ico-styleci]: https://styleci.io/repos/83414040/shield?branch=master&style=flat
-
-[link-packagist]: https://packagist.org/packages/itsdamien/laravel-heroku-config-parser
-[link-downloads]: https://packagist.org/packages/itsdamien/laravel-heroku-config-parser
-[link-codeclimate]: https://codeclimate.com/repos/58b753f882f55c02710000b5/feed
-[link-styleci]: https://styleci.io/repos/83414040
