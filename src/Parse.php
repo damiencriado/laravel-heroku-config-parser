@@ -17,7 +17,7 @@ class Parse
     {
         $env = getenv(getenv($this->databaseKey));
 
-        if ($env !== null) {
+        if ($env !== false) {
             $url = parse_url($env);
 
             if (isset($url['scheme']) && $url['scheme'] === 'mysql') {
@@ -54,7 +54,7 @@ class Parse
     {
         $env = getenv(getenv($this->redisKey));
 
-        if ($env !== null) {
+        if ($env !== false) {
             $url = parse_url($env);
             if (isset($url['host'])) {
                 putenv('REDIS_HOST='.$url['host']);
