@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/license)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Build Status](https://travis-ci.org/itsDamien/laravel-heroku-config-parser.svg?branch=master)](https://travis-ci.org/itsDamien/laravel-heroku-config-parser)
 [![Coverage Status](https://coveralls.io/repos/github/itsDamien/laravel-heroku-config-parser/badge.svg?branch=master)](https://coveralls.io/github/itsDamien/laravel-heroku-config-parser?branch=master)
-[![Code Climate](https://codeclimate.com/repos/58b753f882f55c02710000b5/badges/7f0130fdf76c7fe7e8cd/gpa.svg)](https://codeclimate.com/repos/58b753f882f55c02710000b5/feed)
+[![Code Climate](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser/badges/gpa.svg)](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser)
 [![StyleCI](https://styleci.io/repos/83414040/shield?branch=master&style=flat)](https://styleci.io/repos/83414040)
 
 Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel.
