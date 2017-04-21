@@ -57,7 +57,7 @@ if (class_exists('\ItsDamien\Heroku\Config\Parse')) {
 
 **Enjoy !**
 
-## List of injected config var
+## ENV vars created
 
 | DATABASE_URL  | postgres://usr:pwd@ec2-s1:5432/db1 | mysql://usr:pwd@ec2-s2:3306/db2 |
 |---------------|------------------------------------|-----------------------------|
