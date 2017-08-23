@@ -41,8 +41,8 @@ composer require itsdamien/laravel-heroku-config-parser
 Add these config vars:
 
 ```shell
-heroku config:set HEROKU_DATABASE=DATABASE_URL
-heroku config:set HEROKU_REDIS=REDIS_URL
+heroku config:set KEY_DATABASE=DATABASE_URL
+heroku config:set KEY_REDIS=REDIS_URL
 ```
 
 ### Laravel
@@ -76,11 +76,11 @@ if (class_exists('\ItsDamien\Heroku\Config\Parse')) {
 
 ## Customize the config var who will be parsed
 
-You can select wich config var will be parsed by setting `HEROKU_DATABASE` and `HEROKU_REDIS` like this:
+You can select wich config var will be parsed by setting `KEY_DATABASE` and `KEY_REDIS` like this:
 
 ```bash
-heroku config:set HEROKU_DATABASE=HEROKU_POSTGRESQL_BRONZE
-heroku config:set HEROKU_REDIS=REDIS_URL_BACKUP
+heroku config:set KEY_DATABASE=HEROKU_POSTGRESQL_BRONZE
+heroku config:set KEY_REDIS=REDIS_URL_BACKUP
 ```
 
 ## License

@@ -4,8 +4,8 @@ namespace ItsDamien\Heroku\Config;
 
 class Parse
 {
-    private $databaseKey = 'HEROKU_DATABASE';
-    private $redisKey = 'HEROKU_REDIS';
+    private $databaseKey = 'KEY_DATABASE';
+    private $redisKey = 'KEY_REDIS';
 
     public function __construct()
     {
