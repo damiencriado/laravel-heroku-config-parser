@@ -6,7 +6,7 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
 {
     public function testDatabasePgsql()
     {
-        putenv('HEROKU_DATABASE=DATABASE_URL');
+        putenv('KEY_DATABASE=DATABASE_URL');
         putenv('DATABASE_URL=postgres://usr:pwd@localhost:5432/hellodb');
 
         new \ItsDamien\Heroku\Config\Parse();
@@ -21,7 +21,7 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
 
     public function testDatabaseMysql()
     {
-        putenv('HEROKU_DATABASE=DATABASE_URL');
+        putenv('KEY_DATABASE=DATABASE_URL');
         putenv('DATABASE_URL=mysql://usr:pwd@localhost:3306/hellodb');
 
         new \ItsDamien\Heroku\Config\Parse();
@@ -36,7 +36,7 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
 
     public function testRedis()
     {
-        putenv('HEROKU_REDIS=REDIS_URL');
+        putenv('KEY_REDIS=REDIS_URL');
         putenv('REDIS_URL=redis://h:pwd@ec2-s1:11469');
 
         new \ItsDamien\Heroku\Config\Parse();
