@@ -1,11 +1,12 @@
-<p align="center"><img src="https://www.dropbox.com/s/jsq5x1g72lc8wir/laravel-heroku-config-parser.png?raw=1" width="600"></p>
+![Laravel Heroku Config Parser](https://ohmybadge.com/ohmybadge.svg?a=LARAVEL&b=HEROKU%20CONFIG%20PARSER&s=lavander)
+---
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/v/stable)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/downloads)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![License](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/license)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Build Status](https://travis-ci.org/itsDamien/laravel-heroku-config-parser.svg?branch=master)](https://travis-ci.org/itsDamien/laravel-heroku-config-parser)
-[![Coverage Status](https://coveralls.io/repos/github/itsDamien/laravel-heroku-config-parser/badge.svg?branch=master)](https://coveralls.io/github/itsDamien/laravel-heroku-config-parser?branch=master)
-[![Code Climate](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser/badges/gpa.svg)](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a881f6e2443b9971509f/maintainability)](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a881f6e2443b9971509f/test_coverage)](https://codeclimate.com/github/itsDamien/laravel-heroku-config-parser/test_coverage)
 [![StyleCI](https://styleci.io/repos/83414040/shield?branch=master&style=flat)](https://styleci.io/repos/83414040)
 
 Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel.
