@@ -1,4 +1,5 @@
-# Laravel Heroku Config Parser
+![itsDamien Laravel Heroku Config Parser](https://ohmybadge.com/ohmybadge.svg?a=itsDamien&b=Laravel%20Heroku%20Config%20Parser&r=3&s=sunset-city)
+---
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/v/stable)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/downloads)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
