@@ -1,5 +1,4 @@
-![Laravel Heroku Config Parser](https://ohmybadge.com/ohmybadge.svg?a=LARAVEL&b=HEROKU%20CONFIG%20PARSER&s=lavander)
----
+# Laravel Heroku Config Parser
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/v/stable)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/downloads)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
