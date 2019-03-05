@@ -1,4 +1,5 @@
-[![itsDamien Laravel Heroku Config Parser](https://ohmybadge.com/ohmybadge.svg?a=itsDamien&b=Laravel%20Heroku%20Config%20Parser&r=3&s=sunset-city)](https://github.com/itsDamien/laravel-heroku-config-parser)
+Laravel Heroku Config Parser
+---
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/v/stable)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-heroku-config-parser/downloads)](https://packagist.org/packages/itsdamien/laravel-heroku-config-parser)
@@ -9,6 +10,18 @@
 [![StyleCI](https://styleci.io/repos/83414040/shield?branch=master&style=flat)](https://styleci.io/repos/83414040)
 
 Parse Heroku config vars like `DATABASE_URL` or `REDIS_URL` to work with Laravel.
+
+Important
+---
+Due to a breaking change in Laravel 5.8 (thanks https://github.com/mathieutu for the feedback), you can use this method to achieve the same goal:
+
+https://github.com/itsDamien/laravel-heroku-config-parser/issues/2#issuecomment-469709141
+
+### Breaking change:
+
+https://github.com/laravel/framework/issues/27695
+
+https://github.com/laravel/docs/pull/5039
 
 ## Why
 
